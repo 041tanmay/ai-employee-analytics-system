@@ -21,7 +21,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "*",
+    origin: "https://ai-employee-frontend.onrender.com",
   })
 );
 
